@@ -14,3 +14,6 @@ isEven.o: isEven.c isEven.h
 
 clean:
 	rm -f $(TARGET) $(OBJS)
+
+#make
+#./lab02
