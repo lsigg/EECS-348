@@ -1,0 +1,22 @@
+<p id="text">This is dummy text</p>
+
+R: <input id="r"><br>
+G: <input id="g"><br>
+B: <input id="b"><br>
+Border Width: <input id="bw"><br>
+
+<button onclick="changeStyle()">Apply</button>
+
+<script>
+function changeStyle() {
+  let r = document.getElementById("r").value;
+  let g = document.getElementById("g").value;
+  let b = document.getElementById("b").value;
+  let bw = document.getElementById("bw").value;
+
+  let text = document.getElementById("text");
+
+  text.style.color = `rgb(${r},${g},${b})`;
+  text.style.border = `${bw}px solid black`;
+}
+</script>
