@@ -1,5 +1,7 @@
-#include <stdio.h>
 #include "isEven.h"
+
+#include <stdio.h>
+
 int isEven(int num)
 {
 	if (num % 2 == 0){

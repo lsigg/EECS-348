@@ -1,0 +1,19 @@
+<input type="password" id="p1" placeholder="Enter password"><br>
+<input type="password" id="p2" placeholder="Confirm password"><br>
+
+<button onclick="checkPassword()">Check</button>
+
+<script>
+function checkPassword() {
+  let p1 = document.getElementById("p1").value;
+  let p2 = document.getElementById("p2").value;
+
+  if (p1.length < 8) {
+    alert("Password must be at least 8 characters");
+  } else if (p1 !== p2) {
+    alert("Passwords do not match");
+  } else {
+    alert("Passwords match!");
+  }
+}
+</script>
