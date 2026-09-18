@@ -1,0 +1,13 @@
+EMAIL OtherPerson,Older promotion,02-14-2024
+EMAIL OtherPerson,Newer promotion,10-30-2025
+EMAIL Boss,Earlier meeting,03-01-2025
+EMAIL Boss,Later meeting,03-15-2025
+COUNT
+NEXT
+READ
+NEXT
+READ
+NEXT
+READ
+COUNT
+NEXT
