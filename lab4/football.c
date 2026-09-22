@@ -26,10 +26,18 @@ int main(void) {
 
     while(1) {
         printf("Enter NFL score (1 or 0 to quit): ");
-        scanf("%d", &score);
+        if (scanf("%d", &score) != 1) {
+            printf("Error: Please enter a whole number score.\n");
+            return 1;
+        }
 
-        if (score <= 1) {
+        if (score == 0 || score == 1) {
             break;
+        }
+
+        if (score < 0) {
+            printf("Error: Score cannot be negative.\n");
+            continue;
         }
 
         scorigami(score);
