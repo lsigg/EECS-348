@@ -1,16 +1,16 @@
 CC := gcc
 CFLAGS := -Wall -Wextra -std=c11 -pedantic
 
-TARGETS := football.exe tempature.exe
+TARGETS := task1.exe task2.exe
 
 .PHONY: all clean
 
 all: $(TARGETS)
 
-football.exe: football.c
+task1.exe: task1.c
 	$(CC) $(CFLAGS) -o $@ $<
 
-tempature.exe: tempature.c
+task2.exe: task2.c
 	$(CC) $(CFLAGS) -o $@ $<
 
 clean:
