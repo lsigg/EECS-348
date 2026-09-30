@@ -27,9 +27,8 @@
  * Codex assisted with comments and formatting based on the AI assignments
  *
  * Author: Logan Sigg
- * Creation Date: Not recorded
+ * Creation Date: 09/29/2026
  * Revision Date: 09/29/2026
- * Revisions: Added the program prologue and explanatory comments
  *
  */
 
